@@ -45,7 +45,7 @@ const JobListing = () => {
   }, [jobs, selectedCategories, selectedLocations, searchFilter])
 
   return (
-    <div className="container 2xl:px-20 mx-auto flex flex-col lg:flex-row max-lg:space-y-8 py-8">
+    <div className="container 2xl:px-20 mx-auto flex flex-col lg:flex-row">
       {/* Sidebar */}
       <div className="w-full lg:w-1/4 bg-white px-4">
         {/* Search filter from hero component */}
@@ -131,7 +131,7 @@ const JobListing = () => {
       </div>
 
       {/* Job Listings */}
-      <section className="w-full lg:w-3/4 text-gray-800 max-lg:px-4">
+      <section className="w-full lg:w-3/4 text-gray-800 max-lg:px-4 mt-5">
         <h3 className="font-semibold text-3xl py-2" id="job-list">
           Latest jobs
         </h3>

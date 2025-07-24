@@ -85,7 +85,7 @@ const RecruiterLogin = () => {
         className="relative bg-white p-10 rounded-xl text-slate-500"
       >
         <h1 className="text-center text-2xl text-neutral-700 font-semibold">
-          Recruiter <span className="text-blue-600">{state}</span>
+          Recruiter <span className="text-blue-500">{state}</span>
         </h1>
         <p className="text-sm">Welcome back! Please sign in to continue</p>
         {state === "Sign Up" && isTextDataSubmitted ? (
@@ -152,14 +152,14 @@ const RecruiterLogin = () => {
         )}
 
         {state === "Login" && (
-          <p className="text-sm text-blue-600 mt-4 cursor-pointer">
+          <p className="text-sm text-blue-500 mt-4 cursor-pointer">
             Forgot password
           </p>
         )}
 
         <button
           type="submit"
-          className="bg-blue-600 w-full text-white py-2 rounded-full mt-4"
+          className="bg-blue-500 w-full text-white py-2 rounded-full mt-4"
         >
           {state === "Login"
             ? "login"
@@ -172,7 +172,7 @@ const RecruiterLogin = () => {
           <p className="mt-5 text-center">
             Don't have an account?{" "}
             <span
-              className="text-blue-600 cursor-pointer"
+              className="text-blue-500 cursor-pointer"
               onClick={() => setState("Sign Up")}
             >
               Sign Up
@@ -182,7 +182,7 @@ const RecruiterLogin = () => {
           <p className="mt-5 text-center">
             Already have an account?{" "}
             <span
-              className="text-blue-600 cursor-pointer"
+              className="text-blue-500 cursor-pointer"
               onClick={() => setState("Login")}
             >
               Login

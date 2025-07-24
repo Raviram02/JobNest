@@ -126,7 +126,7 @@ function ApplyJob() {
             </div>
 
             <div className="flex flex-col justify-center text-end text-sm max-md:mx-auto max-md:text-center">
-              <button onClick={applyHandler} className="bg-blue-600 p-2.5 px-10 text-white rounded">
+              <button onClick={applyHandler} className="bg-blue-500 p-2.5 px-10 text-white rounded">
                 {isAlreadyApplied ? "Already Applied" : "Apply Now"}
               </button>
               <p className="mt-1 text-gray-600">
@@ -142,7 +142,7 @@ function ApplyJob() {
                 className="rich-text"
                 dangerouslySetInnerHTML={{ __html: jobData.description }}
               ></div>
-              <button onClick={applyHandler} className="bg-blue-600 p-2.5 px-10 text-white rounded mt-10">
+              <button onClick={applyHandler} className="bg-blue-500 p-2.5 px-10 text-white rounded mt-10">
                 {isAlreadyApplied ? "Already Applied" : "Apply Now"}
               </button>
             </div>

@@ -62,8 +62,8 @@ function Applications() {
           {isEdit || userData && userData.resume === "" ? (
             <>
               <label className="flex items-center" htmlFor="resumeUpload">
-                <p className="bg-blue-100 text-blue-600 px-4 py-2 rounded-lg mr-2">
-                  {resume ? resume.name : "Select Resume"}
+                <p className="bg-blue-100 text-blue-500 px-4 py-2 rounded-lg mr-2">
+                  {resume ? resume?.name : "Select Resume"}
                 </p>
                 <input
                   id="resumeUpload"
@@ -84,7 +84,7 @@ function Applications() {
           ) : (
             <div className="flex gap-2">
               <a
-                className="bg-blue-100 text-blue-600 px-4 py-2 rounded-lg"
+                className="bg-blue-100 text-blue-500 px-4 py-2 rounded-lg"
                 href={userData.resume}
                 target="_blank"
               >
