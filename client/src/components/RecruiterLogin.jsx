@@ -151,11 +151,11 @@ const RecruiterLogin = () => {
           </>
         )}
 
-        {state === "Login" && (
+        {/* {state === "Login" && (
           <p className="text-sm text-blue-500 mt-4 cursor-pointer">
             Forgot password
           </p>
-        )}
+        )} */}
 
         <button
           type="submit"

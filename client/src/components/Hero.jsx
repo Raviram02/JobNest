@@ -20,11 +20,10 @@ function Hero() {
     <div className="container 2xl:px-20 mx-auto mt-10 mb-8">
       <div className="bg-gradient-to-r from-blue-700 to-indigo-700 text-white py-16 text-center mx-2 rounded-xl">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium mb-4">
-          Over 10,000+ jobs to apply
+          Connecting Talent with Opportunity
         </h2>
         <p className="mb-8 max-w-xl mx-auto text-sm font-light px-5">
-          Your Next Big Career Move Starts Right Here - Explore the Best Job
-          Opportunities and Take the First Step Toward Your Future!
+          Your Gateway to Career Growth – Discover Top Job Opportunities and Step Confidently Towards a Brighter Future!
         </p>
         <div className="flex items-center justify-between bg-white rounded text-gray-600 max-w-xl pl-4 mx-4 sm:mx-auto">
           <div className="flex items-center">

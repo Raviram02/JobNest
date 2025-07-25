@@ -4,6 +4,7 @@ import { assets } from "../assets/assets";
 import { useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import { useEffect } from "react";
+import Logo from "../components/Logo";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     if(companyData) {
-        navigate("/dashboard/manage-jobs");
+        navigate("/dashboard/add-job");
     }
   }, [companyData])
 
@@ -30,12 +31,7 @@ const Dashboard = () => {
       {/* Navbar for Recruiter Panel */}
       <div className="shadow py-4">
         <div className="px-5 flex justify-between items-center">
-          <img
-            onClick={(e) => navigate("/")}
-            className="max-sm:w-32 cursor-pointer"
-            src={assets.logo}
-            alt=""
-          />
+          <div onClick={(e) => navigate("/dashboard/add-job")}><Logo/></div>
           {companyData && (
             <div className="flex items-center gap-3">
               <p className="max-sm:hidden">Welcome, {companyData.name}</p>

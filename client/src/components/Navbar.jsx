@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <div className="shadow py-4">
       <div className="container px-4 2xl:px-20 mx-auto flex justify-between items-center">
-        < Logo  />
+        <div onClick={(e) => navigate("/")}><Logo/></div>
         {/* <img onClick={() => navigate('/')} className="w-[160px] h-[38px] mr-3 cursor-pointer" src={assets.logo} alt="Logo" /> */}
         {user ? (
           <div className="flex items-center gap-3">

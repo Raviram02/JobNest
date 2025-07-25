@@ -5,7 +5,6 @@ const Logo = () => {
   const navigate = useNavigate();
   return (
     <div
-      onClick={() => navigate("/")}
       className="w-[160px] h-[38px] mr-3 cursor-pointer text-3xl"
     >
       <i className="ri-user-search-fill text-gray-500 mr-1 text-2.5xl"></i>
