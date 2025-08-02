@@ -1,36 +1,32 @@
-#💼 JobNest 
+# 💼 JobNest
 
-JobNest is a full-stack job portal built using the MERN stack (MongoDB, Express.js, React.js, Node.js), crafted to simplify the hiring journey for both recruiters and job seekers. It offers a smooth, feature-rich experience from job posting to application tracking.
-
----
-
-##Key Features
-
-    Secure Authentication via Clerk.dev
-    Separate, role-based dashboards for recruiters and candidates
-
-    📤 Resume Upload with Cloudinary integration
-    Easily upload and manage resumes
-
-    📬 Application Tracking System (ATS)
-    Monitor status updates like Pending, Accepted, or Rejected
-
-    🎨 Responsive & Intuitive UI
-    Built with Tailwind CSS for a seamless experience on all devices
-
-    🧑‍💼 Recruiter Dashboard
-    Post new job listings, manage candidates, and review applications
-
-    👩‍🎓 Job Seeker Dashboard
-    Explore job listings, apply in one click, and track your applications
+JobNest is a full-stack job portal built to streamline the hiring process for both recruiters and job seekers. It allows candidates to explore opportunities and track applications, while enabling recruiters to post jobs and manage applicants with ease.
 
 ---
 
-##🛠 Tech Stack
+## 🔑 Features
 
-    Frontend: React.js + Tailwind CSS
+    🔐 Role-Based Authentication – Separate dashboards for recruiters and candidates using Clerk.dev
 
-    Backend: Node.js + Express.js
+    📤 Resume Upload – Upload and manage resumes via Cloudinary
+
+    📝 Application Tracking System – View application status as Pending, Accepted, or Rejected
+
+    💼 Recruiter Dashboard – Post jobs, view applicants, and manage job listings
+
+    🧑‍🎓 Candidate Dashboard – Search jobs, apply directly, and track applications
+
+    📱 Responsive Design – Optimized for both desktop and mobile devices
+
+    🔔 Instant Notifications – Real-time updates using React Toastify
+
+---
+
+## 🛠️ Tech Stack
+
+    Frontend: React.js, Tailwind CSS
+
+    Backend: Node.js, Express.js
 
     Database: MongoDB Atlas
 
