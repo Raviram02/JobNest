@@ -1,28 +1,36 @@
-JobNest is a modern full-stack job portal built with the MERN Stack (MongoDB, Express, React, Node.js), designed to streamline the hiring process for both recruiters and job seekers.
-🚀 Features
+💼 JobNest – Smart Job Matching Platform
 
-    🔐 Authentication via Clerk – Separate dashboards for recruiters and candidates
+JobNest is a full-stack job portal built using the MERN stack (MongoDB, Express.js, React.js, Node.js), crafted to simplify the hiring journey for both recruiters and job seekers. It offers a smooth, feature-rich experience from job posting to application tracking. 🚀
+🔑 Key Features
 
-    📄 Resume Upload with Cloudinary support
+    Secure Authentication via Clerk.dev
+    Separate, role-based dashboards for recruiters and candidates
 
-    🧾 Application Tracking System – View status as Pending, Accepted, or Rejected
+    📤 Resume Upload with Cloudinary integration
+    Easily upload and manage resumes
 
-    🎯 Responsive UI – Fully responsive design across devices
+    📬 Application Tracking System (ATS)
+    Monitor status updates like Pending, Accepted, or Rejected
 
-    📊 Recruiter Dashboard – Post jobs, view applicants, manage applications
+    🎨 Responsive & Intuitive UI
+    Built with Tailwind CSS for a seamless experience on all devices
 
-    💼 Job Seeker Dashboard – Search & apply to jobs, track applications
+    🧑‍💼 Recruiter Dashboard
+    Post new job listings, manage candidates, and review applications
+
+    👩‍🎓 Job Seeker Dashboard
+    Explore job listings, apply in one click, and track your applications
 
 🛠 Tech Stack
 
-    Frontend – React.js, Tailwind CSS
+    Frontend: React.js + Tailwind CSS
 
-    Backend – Node.js, Express.js
+    Backend: Node.js + Express.js
 
-    Database – MongoDB Atlas
+    Database: MongoDB Atlas
 
-    Authentication – Clerk.dev
+    Authentication: Clerk.dev
 
-    Cloud Storage – Cloudinary
+    File Uploads: Cloudinary
 
-    Notifications – Toastify
+    Notifications: React Toastify
