@@ -1,10 +1,10 @@
-💼 JobNest 
+#💼 JobNest 
 
 JobNest is a full-stack job portal built using the MERN stack (MongoDB, Express.js, React.js, Node.js), crafted to simplify the hiring journey for both recruiters and job seekers. It offers a smooth, feature-rich experience from job posting to application tracking.
 
 ---
 
-🔑 Key Features
+##Key Features
 
     Secure Authentication via Clerk.dev
     Separate, role-based dashboards for recruiters and candidates
@@ -26,7 +26,7 @@ JobNest is a full-stack job portal built using the MERN stack (MongoDB, Express.
 
 ---
 
-🛠 Tech Stack
+##🛠 Tech Stack
 
     Frontend: React.js + Tailwind CSS
 
